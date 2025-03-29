@@ -16,35 +16,35 @@ const rl = readline.createInterface({
 // Your projects data - update with your actual project information
 const videoTemplates = [
   {
-    title: "Infrastructure as Code with Terraform",
-    description: "Building and managing AWS infrastructure using Terraform modules, demonstrating state management and best practices.",
-    loomUrl: "https://github.com/yourusername/terraform-aws-project",
-    tools: ["Terraform", "AWS", "IaC"]
+    title: "Python Application Deployment on AKS",
+    description: "Deployment of Python application on AKS using Terraform modules and GitHub Actions. Includes implementation of code and image scanning with SonarQube and Snyk as well as Kubernetes/Docker security practices (run as nonroot, seccomp, restricted capabilities, read-only root filesystem, unmounting of service account token). Monitoring with Prometheus, Grafana, and Microsoft Teams channel alerts via a webhook.",
+    loomUrl: "https://github.com/rigamortus/infiniongt",
+    tools: ["Terraform", "Azure", "IaC", "Kubernetes", "GitHub Actions", "SonarQube", "Snyk", "Prometheus", "Grafana", "Docker"]
   },
   {
-    title: "Kubernetes Deployment Patterns",
-    description: "Implementing blue-green deployments in Kubernetes using custom controllers and helm charts.",
-    loomUrl: "https://github.com/yourusername/kubernetes-deployment-patterns",
-    tools: ["Kubernetes", "Helm", "Docker"]
+    title: "QR Code Generator - Lambda, S3, API Gateway.",
+    description: "QR code generator using AWS Resources",
+    loomUrl: "https://github.com/rigamortus/mynewrepo",
+    tools: ["Terraform", "AWS Lambda", "S3", "API Gateway", "Python"]
   },
   {
-    title: "CI/CD Pipeline with GitHub Actions",
-    description: "Setting up automated testing and deployment pipeline for a microservices architecture.",
-    loomUrl: "https://github.com/yourusername/github-actions-cicd",
-    tools: ["GitHub Actions", "Docker", "AWS"]
+    title: "Laravel Web Application on AWS Using Ansible",
+    description: "Deployment of a Laravel web application on AWS using Ansible. This project includes setting up an EC2 instance, configuring security groups, and deploying the application with Ansible playbooks.",
+    loomUrl: "https://github.com/rigamortus/devops-projects/tree/main/ansible-redone",
+    tools: ["AWS", "Ansible", "Laravel", "EC2"]
   },
   {
-    title: "Monitoring and Alerting Setup",
-    description: "Setting up observability for a web application with Prometheus and Grafana.",
-    loomUrl: "https://github.com/yourusername/prometheus-grafana-setup",
-    tools: ["Prometheus", "Grafana", "Kubernetes"]
+    title: "Static Website on Azure",
+    description: "Geo-routing of a static website using Azure DNS and Terraform. The project includes setting up a static website on Azure Blob Storage, configuring DNS records, and implementing geo-routing based on user location.",
+    loomUrl: "https://github.com/rigamortus/devops-projects/tree/main/azuretask",
+    tools: ["Terraform", "Azure", "DNS"]
   }
 ];
 
 // Your contact information - update with your actual contact information
 const contactTemplate = {
-  email: "your.email@example.com",
-  linkedin: "https://linkedin.com/in/your-profile",
+  email: "david akalugo@gmail.com",
+  linkedin: "https://linkedin.com/in/david-akalugo",
   resumeUrl: "/resume.pdf"
 };
 
